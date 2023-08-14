@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config
+data:
+  BKGRD_URL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/518097-background-hd.jpg"
+ # BKGRD_URL: "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  APP_HEADER: "Group 6"
